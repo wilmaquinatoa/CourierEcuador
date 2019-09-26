@@ -33,5 +33,10 @@ return [
     'sparkpost' => [
         'secret' => env('SPARKPOST_SECRET'),
     ],
+    
+    'chatkit' => [
+        'secret' => env('CHATKIT_SECRET_KEY'),
+        'locator' => env('CHATKIT_INSTANCE_LOCATOR'),
+    ],
 
 ];
